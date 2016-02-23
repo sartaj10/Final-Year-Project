@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 #cap = cv2.VideoCapture(0)
 #while( cap.isOpened() ) :
-img = cv2.imread('../Images/hand8.jpg')
+img = cv2.imread('../Images/hand9.jpg')
 #ret,img = cap.read()
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 blur = cv2.GaussianBlur(gray,(5,5),0)
@@ -52,7 +52,7 @@ if(1):
 
 cv2.namedWindow('image',cv2.WINDOW_NORMAL)
 cv2.imshow('image',drawing)
-cv2.imwrite('../Images/hand8_output.jpg',drawing)
+cv2.imwrite('../Images/hand9_output.jpg',drawing)
 
 k = cv2.waitKey(0)
 if k == 27:         # wait for ESC key to exit
