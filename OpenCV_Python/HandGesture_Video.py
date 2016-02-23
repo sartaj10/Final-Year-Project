@@ -51,7 +51,7 @@ while( cap.isOpened() ) :
 		i=0
 
 	cv2.namedWindow('image',cv2.WINDOW_NORMAL)
-	cv2.imshow('image',img)
+	cv2.imshow('image',drawing)
 	#cv2.imwrite('../Images/hand8_output.jpg',drawing)
 
 	k = cv2.waitKey(0)
