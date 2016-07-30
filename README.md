@@ -10,3 +10,14 @@ The segmentation of hands is performed using the Codebook method for background 
 
 For the feature extraction, Krawtchouk moments are used to create a feature vector. A matrix is formed containing the features of all the images from the training data set. The extracted features are applied to a knn classifier. The K-nearest neighbours are then found for the given input image and the hand gesture is predicted accordingly.
 
+## Steps of Hand Gesture Recognition
+
+![Alt text](https://github.com/sartaj10/Final-Year-Project/blob/master/Images/steps.png "Steps")
+
+## Segmentation Results
+
+![Alt text](https://github.com/sartaj10/Final-Year-Project/blob/master/Images/segmentation_results.png "Segmentation Results")
+
+## Classified Results
+
+![Alt text](https://github.com/sartaj10/Final-Year-Project/blob/master/Images/results_classified.png "Classified Results")
