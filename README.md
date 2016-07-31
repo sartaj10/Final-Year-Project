@@ -21,3 +21,9 @@ For the feature extraction, Krawtchouk moments are used to create a feature vect
 ## Classified Results
 
 ![Alt text](https://github.com/sartaj10/Final-Year-Project/blob/master/Images/results_classified.png "Classified Results")
+
+## Tablulated Results
+
+![Alt text](https://github.com/sartaj10/Final-Year-Project/blob/master/Images/Tabulated-1.png "Tabulated Results")
+
+![Alt text](https://github.com/sartaj10/Final-Year-Project/blob/master/Images/Tabulated-2.png "Tabulated Results")
